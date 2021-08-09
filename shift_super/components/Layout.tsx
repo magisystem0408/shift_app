@@ -7,8 +7,12 @@ export default function Layout({children, title = "表参道 シフト管理"}) 
             <Head>
                 <title>{title}</title>
             </Head>
+
             <main>
                 {children}
+                <nav>
+
+                </nav>
             </main>
 
         </div>
