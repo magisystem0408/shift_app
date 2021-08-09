@@ -1,5 +1,10 @@
+import Layout from "../components/layout/Layout";
+
 export default function MainPage(){
     return(
-        <div>ログイン成功</div>
+        <Layout title="シフト管理システム">
+            <div>
+            </div>
+        </Layout>
     )
 }

@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from "../components/layout/Layout";
 import Auth from "../components/Auth";
 
 export default function Home() {
