@@ -1,10 +1,10 @@
-import Layout from "../components/layout/Layout";
+import Layout from "../components/layout/layout";
 import Auth from "../components/Auth";
 
 export default function Home() {
   return (
     <div className="">
-      {/*ここにAuthが入る*/}
+      {/*  ログイン認証に成功すると、main-pageに飛ぶ*/}
       <Auth />
     </div>
   )

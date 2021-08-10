@@ -67,7 +67,7 @@ export default function Auth() {
     }
 
     return (<div className="h-screen font-sans bg-red-400 bg-cover">
-            <div className="container mx-auto h-full flex flex-1 justify-center items-center">
+            <div className=" h-screen flex justify-center items-center">
                 <div className="w-full max-w-lg">
                     <div className="leading-loose">
                         <form onSubmit={authSuperUser}
